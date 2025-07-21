@@ -1,0 +1,15 @@
+# Ignore all .env files (in any folder)
+**/.env
+
+# Ignore all .env.example or similar files too
+*.env*
+
+# Ignore node_modules anywhere in the project
+**/node_modules/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE settings (optional)
+.vscode/
+.idea/
